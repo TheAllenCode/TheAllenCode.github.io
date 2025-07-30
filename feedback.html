@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AllenCode - 反馈</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <img src="images/logo.png" alt="AllenCode Logo">
+            <h1>AllenCode</h1>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">首页</a>
+            <a href="pricing.html">价格公示</a>
+            <a href="feedback.html" class="active">反馈</a>
+            <a href="contact.html">联系我们</a>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="feedback-form">
+            <h2>意见反馈</h2>
+            <label for="feedback-type">反馈类型</label>
+            <select id="feedback-type" required>
+                <option value="">请选择</option>
+                <option value="suggestion">建议</option>
+                <option value="problem">问题反馈</option>
+                <option value="other">其他</option>
+            </select>
+            <label for="feedback-content">内容</label>
+            <textarea id="feedback-content" rows="5" required></textarea>
+            <button type="submit">提交</button>
+        </section>
+    </main>
+</body>
+
+</html>

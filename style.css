@@ -1,0 +1,176 @@
+/* 全局样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffc0cb;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* 头部样式 */
+.site-header {
+    display: flex;
+    align-items: center;
+    background-color: #f9a;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+    .logo img {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    .logo h1 {
+        color: #000;
+        font-size: 24px;
+    }
+
+.main-nav {
+    margin-left: auto;
+}
+
+    .main-nav a {
+        color: #000;
+        text-decoration: none;
+        margin: 0 10px;
+        padding: 5px 10px;
+    }
+
+        .main-nav a:hover,
+        .main-nav .active {
+            background-color: #000;
+            color: #f9a;
+        }
+
+/* 主要内容区域 */
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+    .content h2,
+    .content h3 {
+        background-color: #f9a;
+        color: #000;
+        padding: 5px 10px;
+        margin: 20px 0 10px;
+    }
+
+/* 首页特定样式 */
+.intro p,
+.team p,
+.platforms,
+.xianyu {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.platform-btn {
+    display: inline-block;
+    background-color: #ffc000;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+    .platform-btn:hover {
+        opacity: 0.8;
+    }
+
+.xianyu img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* 价格公示页表格样式 */
+.pricing-info table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.pricing-info table,
+.pricing-info th,
+.pricing-info td {
+    border: 1px solid #666;
+}
+
+.pricing-info th,
+.pricing-info td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* 反馈页表单样式 */
+.feedback-form {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+}
+
+    .feedback-form label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+
+    .feedback-form select,
+    .feedback-form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+    }
+
+    .feedback-form button {
+        background-color: #00a2e8;
+        color: #000;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+        .feedback-form button:hover {
+            opacity: 0.8;
+        }
+
+/* 联系我们页样式 */
+.contact-info {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+}
+
+.qr-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qr-item {
+    margin: 10px;
+    text-align: center;
+}
+
+    .qr-item img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 5px;
+    }
