@@ -15,10 +15,13 @@ body {
 .site-header {
     display: flex;
     align-items: center;
+    justify-content: space-between; /* 两端对齐，节省空间 */
     background-color: #f9a;
-    padding: 0 20px;
-    position: sticky; /* 属性sticky */
-    top: 0; /* 距离页面顶部距离 */
+    padding: 10px 300px;
+    position: sticky;
+    top: 0;
+    width: 100%; /* 确保占满宽度 */
+    box-sizing: border-box; /* 避免padding导致横向滚动 */
 }
 
 .logo {
@@ -27,6 +30,7 @@ body {
 }
 
     .logo img {
+        border-radius: 5px;
         width: 60px;
         height: 60px;
         margin-right: 10px;
@@ -34,7 +38,7 @@ body {
 
     .logo h1 {
         color: #000;
-        font-size: 24px;
+        font-size: 36px;
     }
 
 .main-nav {
@@ -44,12 +48,13 @@ body {
     .main-nav a {
         color: #000;
         text-decoration: none;
-        margin: 0 10px;
         padding: 5px 10px;
+        border-radius: 5px;
         /* 修改为与 h2 相同的字体样式 */
         font-family: Arial, sans-serif; /* 与 h2 保持一致的字体族 */
         font-size: 18px; /* 通常 h2 比 h1 小，这里使用更适合导航的尺寸 */
         font-weight: bold; /* 与 h2 相同的字重 */
+        white-space: nowrap; /* 防止导航文字换行 */
     }
 
         .main-nav a:hover,
@@ -64,26 +69,21 @@ body {
     margin: 20px auto;
     padding: 0 20px;
 }
-
     .content h2,
     .content h3 {
+        font-size: 18px;
+        border-radius: 5px 5px 0px 0px;
         background-color: #f9a;
         color: #000;
         padding: 5px 10px;
     }
-
-.intro,
-.team,
-.platforms,
-.pricing-info,
-.feedback-form,
-.contact-info {
+section {
     background-color: #222;
     color: #fff;
-    padding: 10px;
     margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
 }
-
 .platform-btn {
     display: inline-block;
     background-color: #ffc000;
@@ -127,47 +127,36 @@ body {
 }
 
 /* 反馈页表单样式 */
-.feedback-form {
-    background-color: #222;
-    color: #fff;
-    padding: 10px;
+.feedback-form label {
+    display: block;
+    margin: 10px 0 5px;
 }
 
-    .feedback-form label {
-        display: block;
-        margin: 10px 0 5px;
-    }
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
 
-    .feedback-form select,
-    .feedback-form textarea {
-        width: 100%;
-        padding: 8px;
-        margin-bottom: 15px;
-    }
+.feedback-form button {
+    display: inline-block;
+    background-color: #ffc000;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
 
-    .feedback-form button {
-        display: inline-block;
-        background-color: #ffc000;
-        color: #000;
-        text-decoration: none;
-        padding: 8px 15px;
-        margin: 5px;
-        border-radius: 4px;
-        border: none;
-        cursor: pointer;
-        font-size: 16px;
+    .feedback-form button:hover {
+        opacity: 0.8;
     }
-
-        .feedback-form button:hover {
-            opacity: 0.8;
-        }
 
 /* 联系我们页样式 */
-.contact-info {
-    background-color: #222;
-    color: #fff;
-    padding: 10px;
-}
 
 .qr-group {
     display: flex;
