@@ -14,14 +14,15 @@ body {
 /* 头部样式 */
 .site-header {
     display: flex;
-    align-items: center;
-    justify-content: space-between; /* 两端对齐，节省空间 */
+    flex-direction: column; /* 改为垂直排列 */
+    align-items: center; /* 水平居中对齐 */
+    justify-content: center; /* 垂直居中对齐 */
     background-color: #f9a;
-    padding: 10px 300px;
+    padding: 10px 20px; /* 调整内边距，适配各屏幕 */
     position: sticky;
     top: 0;
-    width: 100%; /* 确保占满宽度 */
-    box-sizing: border-box; /* 避免padding导致横向滚动 */
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -42,7 +43,9 @@ body {
     }
 
 .main-nav {
-    margin-left: auto;
+    width: 100%; /* 导航占满宽度便于居中 */
+    text-align: center; /* 导航项居中 */
+    margin-top:10px;
 }
 
     .main-nav a {
