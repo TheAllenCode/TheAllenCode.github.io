@@ -1,4 +1,4 @@
-/* È«¾ÖÑùÊ½ÖØÖÃ */
+/* È«ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ */
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +11,14 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
-/* Í·²¿ÑùÊ½ */
+/* Í·ï¿½ï¿½ï¿½ï¿½Ê½ */
 .site-header {
     display: flex;
-    flex-direction: column; /* ¸ÄÎª´¹Ö±ÅÅÁÐ */
-    align-items: center; /* Ë®Æ½¾ÓÖÐ¶ÔÆë */
-    justify-content: center; /* ´¹Ö±¾ÓÖÐ¶ÔÆë */
+    flex-direction: column; /* ï¿½ï¿½Îªï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ */
+    align-items: center; /* Ë®Æ½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½ */
+    justify-content: center; /* ï¿½ï¿½Ö±ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½ */
     background-color: #f9a;
-    padding: 10px 20px; /* µ÷ÕûÄÚ±ß¾à£¬ÊÊÅä¸÷ÆÁÄ» */
+    padding: 10px 20px; /* ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ß¾à£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä» */
     position: sticky;
     top: 0;
     width: 100%;
@@ -43,8 +43,8 @@ body {
     }
 
 .main-nav {
-    width: 100%; /* µ¼º½Õ¼Âú¿í¶È±ãÓÚ¾ÓÖÐ */
-    text-align: center; /* µ¼º½Ïî¾ÓÖÐ */
+    width: 100%; /* ï¿½ï¿½ï¿½ï¿½Õ¼ï¿½ï¿½ï¿½ï¿½ï¿½È±ï¿½ï¿½Ú¾ï¿½ï¿½ï¿½ */
+    text-align: center; /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
     margin-top:10px;
 }
 
@@ -53,11 +53,11 @@ body {
         text-decoration: none;
         padding: 5px 10px;
         border-radius: 5px;
-        /* ÐÞ¸ÄÎªÓë h2 ÏàÍ¬µÄ×ÖÌåÑùÊ½ */
-        font-family: Arial, sans-serif; /* Óë h2 ±£³ÖÒ»ÖÂµÄ×ÖÌå×å */
-        font-size: 18px; /* Í¨³£ h2 ±È h1 Ð¡£¬ÕâÀïÊ¹ÓÃ¸üÊÊºÏµ¼º½µÄ³ß´ç */
-        font-weight: bold; /* Óë h2 ÏàÍ¬µÄ×ÖÖØ */
-        white-space: nowrap; /* ·ÀÖ¹µ¼º½ÎÄ×Ö»»ÐÐ */
+        /* ï¿½Þ¸ï¿½Îªï¿½ï¿½ h2 ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ */
+        font-family: Arial, sans-serif; /* ï¿½ï¿½ h2 ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+        font-size: 18px; /* Í¨ï¿½ï¿½ h2 ï¿½ï¿½ h1 Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã¸ï¿½ï¿½ÊºÏµï¿½ï¿½ï¿½ï¿½Ä³ß´ï¿½ */
+        font-weight: bold; /* ï¿½ï¿½ h2 ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+        white-space: nowrap; /* ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ */
     }
 
         .main-nav a:hover,
@@ -66,7 +66,7 @@ body {
             color: #fff;
         }
 
-/* Ö÷ÒªÄÚÈÝÇøÓò */
+/* ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 .content {
     max-width: 900px;
     margin: 20px auto;
@@ -108,7 +108,7 @@ section {
     margin: 10px 0;
 }
 
-/* ¼Û¸ñ¹«Ê¾Ò³±í¸ñÑùÊ½ */
+/* ï¿½Û¸ï¿½Ê¾Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ */
 .pricing-info table {
     width: 100%;
     border-collapse: collapse;
@@ -129,7 +129,7 @@ section {
     text-align: left;
 }
 
-/* ·´À¡Ò³±íµ¥ÑùÊ½ */
+/* ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ */
 .feedback-form label {
     display: block;
     margin: 10px 0 5px;
@@ -159,7 +159,7 @@ section {
         opacity: 0.8;
     }
 
-/* ÁªÏµÎÒÃÇÒ³ÑùÊ½ */
+/* ï¿½ï¿½Ïµï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½Ê½ */
 
 .qr-group {
     display: flex;
@@ -176,7 +176,7 @@ section {
         height: 200px;
         margin-bottom: 5px;
     }
-/* Ç§ÐÇÆæÓòÒ³Ãæ×¨ÓÃÍ¼Æ¬ÑùÊ½ */
+/* Ç§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½×¨ï¿½ï¿½Í¼Æ¬ï¿½ï¿½Ê½ */
 .arcanum-gallery .qr-group {
     display: flex;
     flex-wrap: wrap;
@@ -199,3 +199,4 @@ section {
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
+    
